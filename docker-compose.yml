@@ -1,0 +1,9 @@
+services:
+    frontent:
+      build: ./frontent
+      ports: 
+        - 5173:5173
+    backend:
+      build: ./backend
+      ports:
+        - 4000:4000
